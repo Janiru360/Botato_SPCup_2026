@@ -5,3 +5,4 @@ opencv-python
 einops
 thop
 pytorch-msssim
+tqdm
