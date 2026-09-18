@@ -6,3 +6,4 @@ einops
 thop
 pytorch-msssim
 tqdm
+timm
