@@ -23,7 +23,7 @@ Use this space to place your code/model/algorithm and document how to run it.
    cd Botato_SPCup_2026
    ```
 
-2. **Environment Setup:** Ensure you have strictly Python 3.11 installed on your system. Newer versions (such as 3.14) do not yet have compatible PyTorch CUDA binaries and will cause the installation to fail or default to the extremely slow CPU version.
+2. **Environment Setup:** Ensure you have strictly Python 3.11 installed on your system. Newer versions (such as 3.14) do not yet have compatible PyTorch CUDA binaries and will cause the installation to fail or default to the CPU version.
 
 
 3. **Install Dependencies:** Navigate to this `scripts/` directory in your terminal and install the required packages using:
