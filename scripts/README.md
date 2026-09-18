@@ -19,8 +19,8 @@ Use this space to place your code/model/algorithm and document how to run it.
 
 1. **Clone the Repository:** Open your terminal and clone the repository using Git, then navigate into the project directory:
    ```bash
-   git clone <REPOSITORY_URL>
-   cd <REPOSITORY_NAME>
+   git clone https://github.com/Janiru360/Botato_SPCup_2026.git
+   cd Botato_SPCup_2026
    ```
 
 2. **Environment Setup:** Ensure you have Python 3.8+ installed on your system.
