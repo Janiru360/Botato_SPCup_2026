@@ -110,6 +110,12 @@ The script requires zero command-line arguments. It automatically dynamically ma
 
 The script processes all `*_noise.png` files found in the input directory. The denoised outputs are saved directly into the target output directory using the strict `<id>.png` naming convention (e.g., processing `461_noise.png` results in a fully denoised `461.png`).
 
+## Expected Terminal Output
+
+If the environment is configured correctly and the pipeline completes successfully, the terminal will display the hardware detection status, model initialization logs, a progress bar, and a final success confirmation as shown below:
+
+![Successful Execution](Screenshot%202026-09-19%20200823.png)
+
 ## Official Submission Information
 
 **Git Commit SHA:**
