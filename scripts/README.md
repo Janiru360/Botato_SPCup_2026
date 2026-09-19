@@ -26,19 +26,24 @@ Use this space to place your code/model/algorithm and document how to run it.
 2. **Environment Setup:** Ensure you have strictly Python 3.11 installed on your system. Newer versions (such as 3.14) do not yet have compatible PyTorch CUDA binaries and will cause the installation to fail or default to the slow CPU version.
 
 
-3. **Install Dependencies:** Navigate to this `scripts/` directory in your terminal and install the required packages using:
+3. Install PyTorch (CUDA): First, explicitly install the GPU-accelerated version of PyTorch to ensure hardware acceleration is active and avoid CPU fallback issues.
+   ```bash
+   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+   ```
+
+4. **Install Dependencies:** Navigate to this `scripts/` directory in your terminal and install the required packages using:
    ```bash
    cd scripts
    pip install -r requirements.txt
    ```
 
-4. **Download and Place SCUNet Codebase:** Follow the instructions in the [SCUNet Setup](#scunet-setup) section below to download and position the required model architecture folder.
+5. **Download and Place SCUNet Codebase:** Follow the instructions in the [SCUNet Setup](#scunet-setup) section below to download and position the required model architecture folder.
 
-5. **Download and Place Model Weights:** Follow the instructions in the [Pretrained Models](#pretrained-models) section below to download and correctly position the `.pth` files.
+6. **Download and Place Model Weights:** Follow the instructions in the [Pretrained Models](#pretrained-models) section below to download and correctly position the `.pth` files.
 
-6. **Prepare Data:** Ensure the 20 target noisy images (e.g., `461_noise.png`) are located in the required `../competition_data/submissions/noisy/` directory relative to the repository root.
+7. **Prepare Data:** Ensure the 20 target noisy images (e.g., `461_noise.png`) are located in the required `../competition_data/submissions/noisy/` directory relative to the repository root.
 
-7. **Execution:** Run the denoising script from within the `scripts/` directory:
+8. **Execution:** Run the denoising script from within the `scripts/` directory:
    ```bash
    python denoise.py
    ```
