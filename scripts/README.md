@@ -119,7 +119,7 @@ If the environment is configured correctly and the pipeline completes successful
 ## Official Submission Information
 
 **Git Commit SHA:**
-``
+
 
 ### **Model Checkpoint: Model 1 (Global Stream): Restormer**
 * **Model Checkpoint:** `botato_restormer_final_460.pth`
