@@ -133,11 +133,4 @@ If the environment is configured correctly and the pipeline completes successful
 * **Expected Model Path:** `scripts/weights/scunet_color_real_psnr.pth`
 * **Model SHA-256:** `fa78899ba2caec9d235a900e91d96c689da71c42029230c2028b00f09f809c2e`
 
-Model Drive Link:
-`<link or N/A>`
 
-Expected Model Path:
-`<path or N/A>`
-
-Model SHA-256:
-`<SHA-256 or N/A>`
